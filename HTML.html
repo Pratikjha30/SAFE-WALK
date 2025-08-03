@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeWalk: Night Safety Tips</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🚶‍♀️ SafeWalk</h1>
+        <p>Your Night Safety Companion</p>
+    </header>
+
+    <main>
+
+        <section class="location">
+            <h2>Find Nearest Police Station</h2>
+            <button onclick="findPoliceStation()">Detect My Location</button>
+            <p id="locationResult"></p>
+        </section>
+
+        <section id="stationResult"></section>
+
+        <section class="whatIf">
+            <h2>What to Do If…</h2>
+            <ul>
+                <li><strong>If followed:</strong> Go to a crowded place, call emergency, use alarm.</li>
+                <li><strong>If harassed:</strong> Shout for help, use alarm, call police immediately.</li>
+                <li><strong>If lost:</strong> Stay calm, find a landmark, ask security personnel for help.</li>
+            </ul>
+        </section>
+
+        <section class="tools">
+            <button onclick="turnOnFlashlight()">🔦 Flashlight</button>
+            <button onclick="playAlarm()">🚨 Alarm</button>
+            <a href="sms:100?body=HELP! I’m being harassed near my location. Please send help." class="sms-btn">📩 Send Message to Police</a>
+        </section>
+
+        <section class="emergency">
+            <h2>Emergency Numbers</h2>
+            <ul>
+                <li>Police: 100</li>
+                <li>Women Helpline: 1091</li>
+                <li>Ambulance: 102</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
