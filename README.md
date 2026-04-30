@@ -57,14 +57,6 @@ SafeWalk/
  └── alarm.mp3
 ```
 
----
-
-## 🌐 Live Demo
-
-(Add your GitHub Pages link here)
-
----
-
 ## ▶️ How to Run
 
 1. Download or clone this repository
@@ -93,7 +85,6 @@ SafeWalk/
 
 ## 🙌 Author
 
-Developed by you 🚀
-(Add your name here)
+Developed by Pratik Narayan Jha
 
 ---
