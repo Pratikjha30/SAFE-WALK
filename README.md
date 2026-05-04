@@ -3,6 +3,10 @@
 SafeWalk is a web-based safety application designed to help users stay safe during night travel. It provides real-time location detection, nearby police station search, emergency tools, and quick safety tips.
 
 ---
+## 🚀 Live Demo
+👉 https://safewalk.netlify.app/
+---
+
 
 ## 🚀 Features
 
